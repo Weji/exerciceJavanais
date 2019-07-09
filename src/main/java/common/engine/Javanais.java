@@ -37,7 +37,7 @@ public class Javanais implements IJavanais{
     public String unJavanise(String word) {
         StringBuilder result = new StringBuilder();
 
-        if(word.length() < 3){
+        if(word.length() < charsToAdd.length()){
             return word;
         }
 
